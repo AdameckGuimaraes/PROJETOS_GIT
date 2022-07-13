@@ -1,2 +1,2 @@
-# PROJETOS_GIT
- PRIMEIRO REPOSITÓRIO VERSIONADO
+# PROJECTS_GIT
+ First versioned repository - training
