@@ -38,7 +38,23 @@ int Y1;
     Y1 = A1*pow(X1,2)+A2*X1+A3;
 // output the result
     cout << "The equation's value is: y = ";
-    cout << Y1 << endl;
+    cout << Y1 << endl;// Delta parameter
+// in order to say if the equation have two real roots
+// or one real root or non real roots.
+int Delta;
+    Delta = pow(A2,2) - 4*A1*A3;
+    if (Delta > 0)
+    {
+        cout << "The equation has two real roots." << endl;
+    }
+     if (Delta == 0)
+     {
+        cout << "The equation has one real root." << endl;
+     }
+     if (Delta < 0)
+     {
+        cout << "The equation doesn't have real roots." << endl;
+     }
 // wait until user is ready before terminating program
 // in order to allow the user to see the result
 system ("Pause");
